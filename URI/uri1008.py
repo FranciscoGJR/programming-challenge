@@ -1,5 +1,5 @@
 '''
-name: Francisco Olivera Gomes Junior
+name: Francisco Olivera Gomes Junior.
 date: 16/06/2021
 url: https://www.urionlinejudge.com.br/judge/en/problems/view/1008
 '''
