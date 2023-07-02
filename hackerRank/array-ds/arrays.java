@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Collections;
+import java.util.Iterator;
 
 /*
  * Reverse array class
@@ -31,9 +32,11 @@ public class arrays {
      * @param array
      */
     public static <T> void printArrayList(List<T> array){
-        for (T element : array) {
-            System.out.print(element + " ");
-        }
+        Iterator<T> iterator = array.iterator();
+        while(iterator.hasNext())
+            System.out.print(iterator.next() + " "); 
+        
+        System.out.print("\n");
     }
 
 
