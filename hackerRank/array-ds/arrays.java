@@ -8,8 +8,6 @@ import java.util.Iterator;
 /*
  * Reverse array class
  */
-
-
 public class arrays {
 
     /*
